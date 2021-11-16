@@ -11,6 +11,7 @@ public class Home5 {
         for (Employee employee : empCorp)
             if (employee.getAge()>40)
                 System.out.println(employee);
+        System.out.println();
 
     }
 }
@@ -41,6 +42,9 @@ class Employee {
                 +phone+ "\n-"
                 +salary+ "\n-"
                 +age);
+
+
     }
+
     }
 
